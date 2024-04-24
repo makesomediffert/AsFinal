@@ -1,0 +1,364 @@
+/* GENERAL */
+*{
+    padding: 0;
+    margin: 0;
+}
+html {
+scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+}
+::-webkit-scrollbar{width: 0.625rem;}
+::-webkit-scrollbar-track {background: white;}
+::-webkit-scrollbar-thumb {background: black;}
+
+/* Transition */
+
+a,
+.btn {
+    transition: all 300ms ease;
+}
+
+/* NAVBAR */
+#desktop-nav {
+    height: 5rem;
+    width: auto;
+}
+#desktop-nav .logo {
+    width: 4%;
+    margin: 10px;
+    border-radius: 50%;
+    border: 1.2px solid black;
+}
+nav,
+.nav-links {
+    display: flex;
+}
+
+nav {
+    align-items: center;
+    height: 17vh;
+}
+#desktop-nav .card-title {
+    font-weight: 800;
+    font-size: 2.5vw;
+    color: greenyellow;
+    text-shadow: 2px 2px black;
+}
+#desktop-nav .card-title mark {
+    background: none;
+    color: palevioletred;
+}
+
+.nav-links{
+    margin-left: 2rem;
+    gap:2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+li a{
+    color: black;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover{
+    color: gray;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181, 181, 181);
+}
+.logo{
+    font-size: 2rem;
+}
+
+/* Section Home About */
+
+.section_about{
+    width: auto;
+    display: inline-flex;
+    background:url('https://previews.123rf.com/images/kebox/kebox1905/kebox190500105/121777351-seamless-white-background-with-little-light-grey-dots-grid-for-writing-or-drawing.jpg');
+    max-height: 20vw;
+}
+.section_about_container {
+    padding: 30px;
+    width: 50%;
+}
+.section_about_container2 {
+    width: 50%;
+}
+.text_h4{
+    color: gray;
+    font-weight: 700;
+    line-height: 2.6;
+}
+.text_h2{
+    font-weight: 800;
+    line-height: 1.2;
+    max-width: 60ch;
+    margin: 10px 0;
+}
+.text_p{
+    text-align: justify;
+    font-size: 1.3vw;
+}
+.Section_about_img{
+    width: 100%;
+    padding: 20px;
+}
+
+/* SERVICES SECTION START */
+
+ .whatwedo_img {
+width: 14%;
+height: 10vw;
+width: 10vw;
+border: 1px solid;
+border-radius: 50%;
+}
+
+.whatwe_do_h5
+{color: red;
+font-weight: 600;
+margin-top: 12rem;
+text-align: center;
+}
+.whatwe_do_h1
+{font-weight: 700;
+margin-top: 2rem; 
+text-align: center;
+}
+.whatwe_do_p
+{font-weight: 600;
+margin-top: 2rem;
+font-size: 1.2rem; 
+text-align-last:center; 
+text-align: center; 
+text-align: justify;
+}
+.bankingservices h2
+{text-align: center;
+color: white;
+font-weight: 700;
+font-size:2.8rem;
+padding-top: 1.4rem;
+}
+.governmentservices h1
+{text-align: center;
+color: #000; 
+font-weight: 700; 
+font-size: 2.8rem; 
+padding-top: 1.4rem;
+}
+ .whatwedo_img
+{margin: 2rem 2.1rem;}
+.whatwedo_img:hover
+{height: 9rem;
+width: 9rem;
+cursor: pointer;
+animation: cir linear 2s infinite;}
+.bankingservices
+{text-align: center;
+    }
+.whatwe_do_body .bankingservices
+{background-color: rgb(133, 133, 239);
+    }
+.rechargeandbillpayment
+{text-align: center;
+}
+.whatwe_do_body .rechargeandbillpayment
+{background-image: linear-gradient(rgb(133, 133, 239),white);
+    }
+.governmentservices
+{text-align: center;
+    }
+.whatwe_do_body .governmentservices
+{background-color: white;
+    }
+.Registrationandtaxfilling
+{text-align: center;
+    }
+.whatwe_do_body .Registrationandtaxfilling
+{background-image: linear-gradient(white,red);
+    }
+.Travelservices
+{text-align: center; 
+    }
+.whatwe_do_body .Travelservices
+{background-image: linear-gradient(red,  rgb(155, 155, 243));
+    }
+@keyframes cir {
+0%{border-left: 3px solid;}
+
+50%{border-top: 3px solid;}
+
+75%{border-right: 3px solid;}
+
+100%{border-bottom: 3px solid;}
+}
+
+/* benefits Section */
+
+.benefits .containe
+{
+    background-color: rgb(155, 155, 243);
+    width: auto;
+}
+ 
+.benefits .containe h3
+{
+    color: white;
+    font-weight: 900;
+    font-size: 3.8vw;
+    margin: 0;
+    padding-top: 2%;
+    padding-left: 4%;
+}.containe ul li
+{
+    list-style: none;
+    line-height: 2.2vw;
+    color: white;
+    font-weight: 600;
+    text-shadow: 1px 1px #c9d1d9;
+    padding-left: 4%;
+}
+.container_stores
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 43rem;
+}
+.container_stores_1
+{
+    box-shadow: 5px 2px 4px black;
+    border-radius: 6%;
+    width: 90%;
+    background-color: white;
+    float: left;
+    margin: 10%;
+    padding: 3%;
+}
+.container_stores_1 .card-img-top
+{
+    margin-left: 80px;
+    width: 40%;
+    height: 100px; 
+}
+.container_stores_1 h4
+{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1.3vw;
+    color: rgb(9, 9, 150);
+}
+.container_stores_1 input
+{
+    padding: 4px;
+    border: 1px solid lightgray;
+    border-radius: 35%;
+    margin: 1%;
+    font-size: 1vw;
+    padding-left: 12%;
+    padding-right: 12%;
+    background-color: white;
+    color: black;
+}
+.containe .mainimg
+{
+    width: 40%;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 4%;
+    margin-top: -35.5%;
+}
+.containe .contain_services_mainimg
+{
+    width: 100%;
+}
+
+.rotate-container {
+    perspective: 800px;
+  }
+  .container_stores_1 {
+    transition: transform 2.3s ease;
+    text-align: center;
+  }
+  
+  .container_stores_1:hover {
+    transform: rotate3d(1, 1, 1, 360deg);
+  }
+
+  /* call_card Section */
+
+  .call_card
+  {
+    margin: 2%;
+    padding: 2%;
+    border: 2px solid lightgray;
+    width: auto;
+    height: 25rem;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .call_card .card1
+  {
+    display: inline;
+    float: left;
+  }
+  .call_card .card1 h3
+  {
+    font-size: 4vw;
+    font-weight: 600;
+  }
+  .call_card .card1 h5
+  {
+    font-size: 1.8vw;
+    color: gray;
+  }
+  .call_card .card2 img
+  {
+    width: 40%;
+    float: right;
+  }
+  .call_card .card2 button
+  {
+    background-color: rgb(155,155,243);
+    color: white;
+    border: none;
+    margin: 2%;
+    border-radius: 15px 15px 15px 10px;
+    padding: 5px;
+    height: 8vh;
+    width: 47vh;
+    font-size: 1.5vw; 
+    font-weight: 600;
+  }
+  .call_card .card2 button:hover
+  {
+    background-color: white;
+    color: #000;
+    border: 1px solid rgba(155, 155, 243);
+  }
+ 
+  /* Footer */
+  footer{
+    background-color: rgba(155, 155, 243);
+    min-height: 9vh;
+    color: white;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 9vh;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
