@@ -1,164 +1,252 @@
-@media screen and (max-width: 1200px) {
+ /* @media screen and (max-width: 1200px) {
 
-}
+} */
 
-    @media screen and (max-width:600px) {
-        #desktop-nav .logo {
-            width: 8%;
-         }
-        #desktop-nav .card-title {
-            font-size: 3.5vw;
-        }
-        .nav-links{
-            margin-left: 0.8rem;
-            gap:1rem;
-            font-size: 1.2rem;
-        }
-        .text_h4{
-            font-size: 0.52rem;
-            line-height: 1;
-        }
-        .text_h2{
-            font-size: 0.78rem;
-            margin: 5px 0;
-        }
-        .text_p{
-            font-size: 1.3vw;
-        }
-        /* benefits Section */
- 
-.container_stores
-{
-    width: 23rem;
-}
-.container_stores_1 .card-img-top
-{
-    margin-left: 10px;
-    width: 40%;
-    height: 60px; 
-}
-.container_stores_1 h4
-{
-    margin-top: 2%;
-    font-size: 2.3vw;
-}
-.container_stores_1 input
-{
-    font-size: 1.2vw;
-}
-.containe ul li
-{
-    line-height: 2.8vw;
-    font-weight: 400;
-    padding-left: 0%;
-    font-size: 10px;
-}
-    } 
-
-@media screen and (max-width:400px) {
-    
-    .nav-links{
-        margin-left: 0.2rem;
-        gap:0.6rem;
-        font-size: 0.78rem;
+@media screen and (max-width:600px) {
+    #desktop-nav .logo {
+        width: 8%;
+     }
+    #desktop-nav .card-title {
+        font-size: 3.5vw;
     }
-    
+    .nav-links{
+        margin-left: 0.8rem;
+        gap:1rem;
+        font-size: 1.2rem;
+    }
     .text_h4{
-        font-size: 0.42rem;
+        font-size: 0.52rem;
         line-height: 1;
     }
     .text_h2{
-        font-size: 0.58rem;
+        font-size: 0.78rem;
         margin: 5px 0;
     }
     .text_p{
-        font-size: 1.1vw;
+        font-size: 1.3vw;
     }  
-    .whatwedo_img {
-        height: 20vw;
-        width: 20vw;
-        } 
-        .whatwe_do_h5
-        {
-        margin-top: 2rem;
-        }
-        .whatwe_do_h1
-        {font-size: 1.2rem;
-        }
-        .whatwe_do_p
-        {
-        margin-top: 1.2rem;
-        font-size: 0.8rem;  
-        }
-        .bankingservices h2
-        {
-        font-size:1.8rem;
-        }
-        .governmentservices h1
-        {
-        font-size: 1.8rem; 
-        }
-         .whatwedo_img
-        {margin: 1.1rem 1.2rem;}
+    /* benefits Section */
 
-        
-/* benefits Section */
- 
 .container_stores
 {
-    width: 23rem;
-}
-.container_stores_1
-{
-    margin: 2%;
+width: 23rem;
 }
 .container_stores_1 .card-img-top
 {
-    margin-left: 10px;
-    width: 40%;
-    height: 60px; 
+margin-left: 10px;
+width: 40%;
+height: 60px; 
 }
 .container_stores_1 h4
 {
-    margin-top: 2%;
-    font-size: 2.3vw;
+margin-top: 2%;
+font-size: 2.3vw;
 }
 .container_stores_1 input
 {
-    font-size: 1.2vw;
+font-size: 1.2vw;
 }
 .containe ul li
 {
-    line-height: 2.8vw;
-    font-weight: 400;
-    padding-left: 0%;
-    font-size: 10px;
+line-height: 2.8vw;
+font-weight: 400;
+padding-left: 0%;
+font-size: 10px;
 }
+}  
+
+@media screen and (max-width:400px) {
+
+.nav-links{
+    margin-left: 0.2rem;
+    gap:0.6rem;
+    font-size: 0.78rem;
 }
+
+.text_h4{
+    font-size: 0.42rem;
+    line-height: 1;
+}
+.text_h2{
+    font-size: 0.58rem;
+    margin: 5px 0;
+}
+.text_p{
+    font-size: 1.1vw;
+}  
+.whatwedo_img {
+    height: 20vw;
+    width: 20vw;
+    } 
+    .whatwe_do_h5
+    {
+    margin-top: 2rem;
+    }
+    .whatwe_do_h1
+    {font-size: 1.2rem;
+    }
+    .whatwe_do_p
+    {
+    margin-top: 1.2rem;
+    font-size: 0.8rem;  
+    }
+    .bankingservices h2
+    {
+    font-size:1.8rem;
+    }
+    .governmentservices h1
+    {
+    font-size: 1.8rem; 
+    }
+     .whatwedo_img
+    {margin: 1.1rem 1.2rem;} 
+ 
+    
+/* benefits Section */
+
+.container_stores
+{
+width: 23rem;
+}
+.container_stores_1
+{
+margin: 2%;
+}
+.container_stores_1 .card-img-top
+{
+margin-left: 10px;
+width: 40%;
+height: 60px; 
+}
+.container_stores_1 h4
+{
+margin-top: 2%;
+font-size: 2.3vw;
+}
+.container_stores_1 input
+{
+font-size: 1.2vw;
+}
+.containe ul li
+{
+line-height: 2.8vw;
+font-weight: 400;
+padding-left: 0%;
+font-size: 10px;
+} 
+}  
+
+@media only screen and (max-width: 700px){  
+
+
+/* make the cards stack on top of each other */
+ .call_card .container
+{
+    display: flex;
+  flex-direction: column;
+  } 
+   .call_card .card1
+  {
+      width: 50%;
+      float: left;
+      display: inline;
+      }
+ .call_card .card2{
+    width: 100%;
+    display:block;
+    float: inline-start;
+}
+.call_card .card1 img, .call_card .card2 img
+{
+    width: 100%;
+    float: left;
+    margin: 5% 0;
+}
+.call_card .card1 button, .call_card .card2 button
+{
+    float: none;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10%;
+} 
+}
+ 
 
 @media only screen and (max-width: 992px)
 {
-  /* make the cards stack on top of each other */
-  .call_card .container
-  {
-      display: flex;
-      flex-direction: column;
+    .container_stores_1{
+        padding: 0%;
+        margin: 5%;
+        width: 80%;
+    }
+    .call_card .card2 button{
+    height: 4vh;
+    width: 30vh;
+    }
+}
+@media only screen and (max-width: 780px)
+{
+       body{
+          width: fit-content;
       }
-      .call_card .card1, .call_card .card2
-      {
-          width: 100%;
-          }
-  .call_card .card1 img, .call_card .card2 img
-  {
-      width: 100%;
-      float: left;
-      margin: 5% 0;
+      .containe ul li{
+          line-height: 2.8vw;
       }
-      .call_card .card1 button, .call_card .card2 button
-      {
-          float: none;
-          width: 80%;
-          margin: auto;
-          margin-bottom: 10%;
+      .call_card {
+       height: 20rem;
       }
+      .call_card .card2 button{
+          margin: 1%;
+          height: 6vh;
+          width: 30vh;
       }
+      .text_p{
+          font-size: 1.5vw;
+      }
+  }
+  
+  @media only screen and (max-width: 580px){
+      #desktop-nav .logo{
+          width: 6%;
+      }
+      #desktop-nav .card-title {
+          font-size: 3.5vw;
+      }
+      .text_p{
+          font-size: 2vw;
+      }
+      .call_card .card2 button{
+          width: 60vh;
+          height: 10vh;
+      }
+      .call_card .card2 button {
+          width: 32vh;
+          height: 5vh;
+      }
+      .containe ul li {
+          line-height: 3vw;
+      }
+  }
+  
+  @media only screen and (max-width: 414px){
+  
+      #desktop-nav .logo{
+          width: 4%;
+      }
+      #desktop-nav .card-title{
+          font-size: 2.5vw;
+      }
+      .nav-links {
+          margin-left: 0rem;
+          gap: 1rem;
+          font-size: 1rem;
+  
+      }
+      .carousel-inner{
+          width: 60%;
+      }
+      .call_card .card2 button{
+        width: 32vh;
+        height: 5vh;
+      }
+  }
